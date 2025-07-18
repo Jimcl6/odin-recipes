@@ -1,0 +1,40 @@
+body {
+  background-color: bisque;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu > ul > li {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+.hero-section {
+  text-align: center;
+}
+
+.hero-section > img {
+  max-height: fit-content;
+  height: auto;
+  width: 800px;
+  /* display: block; */
+  position: relative;
+}
+
+.adobo-desc,
+.tinola-desc,
+.lasagna-desc {
+  display: block;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.ingredients > ul > li {
+  list-style: lower-roman;
+}
